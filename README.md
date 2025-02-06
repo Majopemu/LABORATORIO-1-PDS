@@ -12,7 +12,7 @@ Esta técnica de medición tiene una aplicación muy importante ya sea en el uso
 #### Ruido Gaussiano:
 sigue una distribución normal con una media y una desviación estandar, los valores cercanos se relacionan con la media y los extremos no son frecuentes.
 
-#### Ruido de impulso:
+#### Ruido de impulso: 
 Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud. 
 
 #### Ruido tipo artefacto:
