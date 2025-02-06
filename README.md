@@ -8,4 +8,11 @@ Para calcular el SNR debe compararse la intensidad de la señal con el ruido de 
 ![image](https://github.com/user-attachments/assets/ccdd81d4-1c24-4c3d-bf88-27ad72ff1a7a)
  
 Esta técnica de medición tiene una aplicación muy importante ya sea en el uso de señales de internet, de sonido y de igual manera identificar el ruido para tomar decisiones respecto a esa señal. Se clasifican en tres tipos de ruido:
-Ruido Gaussiano: 
+
+#### Ruido Gaussiano:
+sigue una distribución normal con una media y una desviación estandar, los valores cercanos se relacionan con la media y los extremos no son frecuentes.
+
+#### Ruido de impulso:
+Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud. 
+
+#### Ruido tipo artefacto:
