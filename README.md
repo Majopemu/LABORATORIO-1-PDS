@@ -186,6 +186,11 @@ SNR(Amplitud Pequeña de 2mV): como se evidencia en los ruidos anteriores cuando
  ## Contactanos:
  * est.mariajose.perez@unimilitar.edu.co
  * est.melany.gonzalez@unimilitar.edu.co
+
+ ## Bibliografía
+
+ Burrell, S. (2024, 30 septiembre). ¿Qué significa SNR? Una guía práctica para entender este acrónimo tan común. Wray Castle. https://wraycastle.com/es/blogs/knowledge-base/what-does-snr-stand-for? 
+ srsltid=AfmBOoplrz-kSXH8Uo5xe_eUKbpYsXkbL0l6tCdB7pqmKBwvAZ5DD-CB
    
 
   
