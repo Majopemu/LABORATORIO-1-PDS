@@ -28,7 +28,7 @@ En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen v
 
 *Ruido Gaussiano con Amplitud Grande y Pequeña*
 
-SNR: 0.94dB que indica que la potencia del ruido y la señal EMG son similares por lo que no se logra distinguir la señal esto justifica el valor bajo de SNR
+SNR(Amplitud Grande): 0.94dB que indica que la potencia del ruido y la señal EMG son similares por lo que no se logra distinguir la señal esto justifica el valor bajo de SNR
 
-SNR: 6.94dB este valor indica que la potencia del ruido es menos por lo cual la señal se logra identificar pero con una pequeña distorsión
+SNR(Amplitud Pequeña): 6.94dB este valor indica que la potencia del ruido es menos por lo cual la señal se logra identificar pero con una pequeña distorsión
 
