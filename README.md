@@ -176,3 +176,4 @@ SNR(Amplitud Grande de 6mV): debido a que el SNR es aproximadamente a 0 se tiene
 SNR(Amplitud Pequeña de 2mV): como se evidencia en los ruidos anteriores cuando la amplid de la señal de ruido es pequeña la potencia es menor a la señal EMG, por lo que se observa y analiza que hay distorsión de la señal pero muy poca y se logra ver la señal con poca contaminación
 
 
+
