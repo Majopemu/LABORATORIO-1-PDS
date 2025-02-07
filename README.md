@@ -6,7 +6,8 @@ Es una medida de cuantificación para evaluar una señal deseada comparando el r
 
 Para calcular el SNR debe compararse la intensidad de la señal con el ruido de fondo, la formula para hallar este valor que se presenta en (dB) es la siguiente:
 ![image](https://github.com/user-attachments/assets/46d4cdff-f816-4780-b637-de251b41f5a1)
-*Formula para calcular SNR (Relación Señal Ruido*
+ 
+ *Formula para calcular SNR (Relación Señal Ruido*
  
 Esta técnica de medición tiene una aplicación muy importante ya sea en el uso de señales de internet, de sonido y de igual manera identificar el ruido para tomar decisiones respecto a esa señal. Se clasifican en tres tipos de ruido:
 
@@ -24,6 +25,7 @@ Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes 
 
 En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen valores de SNR:
 ![image](https://github.com/user-attachments/assets/3ef0a4f7-c747-4257-ae5a-d149658f392e)
+
 *Ruido Gaussiano con Amplitud Grande y Pequeña*
 
 SNR: 0.94dB que indica que la potencia del ruido y la señal EMG son similares por lo que no se logra distinguir la señal esto justifica el valor bajo de SNR
