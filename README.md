@@ -16,3 +16,5 @@ sigue una distribución normal con una media y una desviación estandar, los val
 Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud. 
 
 #### Ruido tipo artefacto:
+Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia en este caso una señal seno.
+
