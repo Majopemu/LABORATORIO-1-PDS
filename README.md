@@ -113,10 +113,21 @@ Para calcular el SNR debe compararse la intensidad de la señal con el ruido de 
 Esta técnica de medición tiene una aplicación muy importante ya sea en el uso de señales de internet, de sonido y de igual manera identificar el ruido para tomar decisiones respecto a esa señal. Se clasifican en tres tipos de ruido:
 
 #### Ruido Gaussiano:
-sigue una distribución normal con una media y una desviación estandar, los valores cercanos se relacionan con la media y los extremos no son frecuentes.
+sigue una distribución normal con una media y una desviación estandar, los valores cercanos se relacionan con la media y los extremos no son frecuentes. La señal de este ruido es sim´rtrica alrededor de la media.
+
+De esta manera se realiza la programacion para agregar el ruido gaussiano, donde se establece la amplitud del ruido donde se expresa una grande y una pequeña, se genera el ruido con el resultado anteriormente calculado de media y desviacion estandar, de esta manera se generan ambas señales contaminadas
+
+![image](https://github.com/user-attachments/assets/87217390-a6ad-4cab-807c-0d07d57c24e3)
+
+*Programación para el Ruido Gaussiano*
 
 #### Ruido de impulso: 
 Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud. 
+
+
+![image](https://github.com/user-attachments/assets/39004671-2d28-405a-b403-cd72fbdc3cd6)
+
+*Programación para el Ruido de Impulso*
 
 #### Ruido tipo artefacto:
 Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia en este caso una señal seno.
@@ -153,8 +164,8 @@ En el tercer ruido se utiliza el ruido de tipo artefacto donde se evidencia una 
 
 *Ruido de tipo Artefacto, Ampitud Grande y Pequeña*
 
-SNR(Amplitud Grande de 6mV): 
+SNR(Amplitud Grande de 6mV): debido a que el SNR es aproximadamente a 0 se tiene en cuenta que la señal de ruido cuenta con una potencia similar a la original, por lo tanto se observa que la ona senosoidal distorsiona en gran manera a la señal EMG.
 
-SNR(Amplitud Pequeña de 2mV):
+SNR(Amplitud Pequeña de 2mV): como se evidencia en los ruidos anteriores cuando la amplid de la señal de ruido es pequeña la potencia es menor a la señal EMG, por lo que se observa y analiza que hay distorsión de la señal pero muy poca y se logra ver la señal con poca contaminación
 
 
