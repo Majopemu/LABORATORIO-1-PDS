@@ -122,15 +122,22 @@ De esta manera se realiza la programacion para agregar el ruido gaussiano, donde
 *Programación para el Ruido Gaussiano*
 
 #### Ruido de impulso: 
-Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud. 
+Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, se simulan picos de ruido de gran amplitud, que ocurren de manera esporádica y con corta duración. Aparece como eventos aislados que provocan que la señal aparezca de manera distorsionada afectando procesar la señal biomédicas.
 
+Para la programación de este ruido de Impulso se calcula el porcentaje para definir cuantos impulsos se generaran, en este caso es lal amplitud grande y pequeña que se observará posteriormente analizando los ruidos generados, se insertan impulsos aleatorios y se ajusta de manera positiva y negativa, de esta manera se agrega el ruido.
 
 ![image](https://github.com/user-attachments/assets/39004671-2d28-405a-b403-cd72fbdc3cd6)
 
 *Programación para el Ruido de Impulso*
 
 #### Ruido tipo artefacto:
-Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia en este caso una señal seno.
+Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia en este caso una señal seno, se debe a factores externos al sistema de medición, suelen ser causados por movimientos o interferencias eléctricas. Suele tener patrones específicos y relacionados al entorno, dependiendo de la causa los picos pueden variar.
+
+Para crear la progrmacion de este tipo de ruido se crea un vector de tiempo para que la señal se sincronice con el ruido, se agrega la amplitud requerida para la señal y la frecuencia de la onda seno y se obtiene la señal contaminada.
+
+![image](https://github.com/user-attachments/assets/23ca8443-c061-425b-96a6-7612692aec43)
+
+*Programación para el Ruido de tipo Artefacto*
 
 ## Ruidos en la señal aplicada
 Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes cada uno, es decir por cada ruido una onda grande y una mas pequeña. 
