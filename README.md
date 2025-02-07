@@ -25,6 +25,7 @@ Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia 
 ## Ruidos en la señal aplicada
 Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes cada uno, es decir por cada ruido una onda grande y una mas pequeña. 
 
+### Primer ruido
 En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen valores de SNR:
 ![image](https://github.com/user-attachments/assets/3ef0a4f7-c747-4257-ae5a-d149658f392e)
 
@@ -32,5 +33,16 @@ En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen v
 
 SNR(Amplitud Grande de 8mV): 0.94dB que indica que la potencia del ruido y la señal EMG son similares por lo que no se logra distinguir la señal esto justifica el valor bajo de SNR
 
-SNR(Amplitud Pequeña de 2mV): 6.94dB este valor indica que la potencia del ruido es menos por lo cual la señal se logra identificar pero con una pequeña distorsión
+SNR(Amplitud Pequeña de 2mV): 6.94dB este valor indica que la potencia del ruido es menor por lo cual la señal se logra identificar pero con una pequeña distorsión
+
+### Segundo ruido
+En el segundo caso se hace uso de ruido de impulso de igual manera con una amplitud grande y otra mas pequeña y se calcula el SNR para analizar como actua respecto a la señal EMG, se obtiene lo siguiente:
+![image](https://github.com/user-attachments/assets/3da5cb5a-958b-4607-975a-7992a6dda307)
+
+*Ruido de Impulso Amplitud Grande y Pequeña*
+
+SNR(Amplitud Grande de 2mV): 
+
+SNR(Amplitud Pequeña de 0.3mV):
+
 
