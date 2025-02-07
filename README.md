@@ -19,3 +19,11 @@ Son valores aletorios en su mayoria grandes y en algunas muestras de la señal, 
 #### Ruido tipo artefacto:
 Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia en este caso una señal seno.
 
+## Ruidos en la señal
+Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes cada uno, es decir por cada ruido una onda grande y una mas pequeña. 
+
+En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen valores de SNR:
+SNR: 0.94dB que indica que la potencia del ruido y la señal EMG son similares por lo que no se logra distinguir la señal esto justifica el valor bajo de SNR
+
+SNR:6.94dB este valor indica que la potencia del ruido es menos por lo cual la señal se logra identificar pero con una pequeña distorsión
+
