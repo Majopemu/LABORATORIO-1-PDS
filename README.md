@@ -125,7 +125,8 @@ Se debe a movimientos o interferencias electricas pueden ser de baja frecuencia 
 Se agregan estos tres tipos de ruidos a la señal EMG con diferentes amplitudes cada uno, es decir por cada ruido una onda grande y una mas pequeña. 
 
 ### Primer ruido
-En el primer caso se agrega el ruido gaussiano y con cada amplitud se obtienen valores de SNR:
+En el primer caso se agrega el ruido gaussiano y se logra observar en las señales que se presenta una suma de la amplitud del ruido a la amplitud de la señal original, de esta manera se reconoce el ripo de ruido, se representa cada señal con una amplitud diferente y se obtienen los siguientes valores de SNR:
+
 ![image](https://github.com/user-attachments/assets/3ef0a4f7-c747-4257-ae5a-d149658f392e)
 
 *Ruido Gaussiano con Amplitud Grande y Pequeña*
@@ -136,12 +137,24 @@ SNR(Amplitud Pequeña de 2mV): 6.94dB este valor indica que la potencia del ruid
 
 ### Segundo ruido
 En el segundo caso se hace uso de ruido de impulso de igual manera con una amplitud grande y otra mas pequeña y se calcula el SNR para analizar como actua respecto a la señal EMG, se obtiene lo siguiente:
+
 ![image](https://github.com/user-attachments/assets/3da5cb5a-958b-4607-975a-7992a6dda307)
 
 *Ruido de Impulso Amplitud Grande y Pequeña*
 
-SNR(Amplitud Grande de 2mV): 
+SNR(Amplitud Grande de 2mV): como en el caso anterior la potencia del ruido es muy similar a la señal por lo que se puede concluir que con solo una amplitud de 2mV se alcanza a distorsionar en gran manera la señal debido a que este tipo de ruido se observa como varios picos aleatorios.
 
-SNR(Amplitud Pequeña de 0.3mV):
+SNR(Amplitud Pequeña de 0.3mV):en este caso se puede apreciar muy poco ruido, pero aun así se observa la señal contaminada; este valor de SNR al ser entre 5-10 dB indica que la amplitud de la señal del ruido tiene una potencia menor a la señal EMG.
+
+### Tercer ruido
+En el tercer ruido se utiliza el ruido de tipo artefacto donde se evidencia una señal senoidal, en este caso se podia variar la amplitud asi como la frecuencia de la señal del ruido, se usan dos amplitudes distintas y se calculan los siguientes SNR:
+
+![image](https://github.com/user-attachments/assets/d5a1b8a2-e707-4bc9-870a-966cdb2e1f02)
+
+*Ruido de tipo Artefacto, Ampitud Grande y Pequeña*
+
+SNR(Amplitud Grande de 6mV): 
+
+SNR(Amplitud Pequeña de 2mV):
 
 
